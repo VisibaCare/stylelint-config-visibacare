@@ -1,6 +1,7 @@
 const merge = require('merge');
 
 const mergedRules = merge(
+  require('./options'),
   require('./at-rule'),
   require('./block'),
   require('./color'),

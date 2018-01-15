@@ -1,4 +1,4 @@
 module.exports = {
-  // '' > ""
-  'string-quotes': 'single',
+	// '' > ""
+	'string-quotes': 'single',
 };

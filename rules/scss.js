@@ -1,3 +1,3 @@
 module.exports = {
-  'scss/at-rule-no-unknown': true,
+	'scss/at-rule-no-unknown': true,
 };
