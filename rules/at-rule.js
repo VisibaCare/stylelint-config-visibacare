@@ -1,5 +1,5 @@
 module.exports = {
-	// new empty line after text line
+	// New empty line after text line
 	'at-rule-empty-line-before': [
 		'always',
 		{
@@ -9,6 +9,6 @@ module.exports = {
 		},
 	],
 
-	// setup for SCSS/SASS rules
+	// Setup for SCSS/SASS rules
 	'at-rule-no-unknown': null,
 };

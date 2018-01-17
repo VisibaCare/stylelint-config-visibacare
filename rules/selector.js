@@ -5,7 +5,7 @@ module.exports = {
 	'selector-no-vendor-prefix': true,
 	// No unknown pseudo selector, e.g.: "::SELECTOR"
 	'selector-pseudo-element-no-unknown': true,
-	// strict
+	// Strict
 	'selector-no-qualifying-type': [
 		true,
 		{
