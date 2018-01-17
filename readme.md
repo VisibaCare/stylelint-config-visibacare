@@ -1,12 +1,25 @@
 # stylelint-config-visibacare
 Visiba Care's stylelint config
 
-### npm
+## Getting started
+
+Install [Stylelint](https://stylelint.io/) and `stylelint-config-visibacare`
+
+#### npm
 ```
-$ npm install --save-dev stylelint-config-visibacare
+$ npm install --save-dev stylelint stylelint-config-visibacare
 ```
 
-### Yarn
+#### Yarn
 ```
-$ yarn add --dev stylelint-config-visibacare
+$ yarn add --dev stylelint stylelint-config-visibacare
+```
+
+#### Configure
+
+In package.json add:
+```javascript
+"stylelint": {
+	"extends": ["stylelint-config-visibacare"],
+}
 ```
