@@ -4,6 +4,7 @@ module.exports = {
 			// Positions
 			{
 				properties: [
+					'content',
 					'position',
 					'top',
 					'right',
@@ -47,6 +48,18 @@ module.exports = {
 					'grid-template-rows',
 				],
 			},
+			// Box
+			{
+				order: 'flexible',
+				properties: [
+					'height',
+					'width',
+					'max-height',
+					'max-width',
+					'min-height',
+					'min-width',
+				],
+			},
 			// Padding
 			{
 				properties: [
@@ -78,23 +91,10 @@ module.exports = {
 					'border-left',
 				]
 			},
-			// Box
-			{
-				order: 'flexible',
-				properties: [
-					'height',
-					'width',
-					'max-height',
-					'max-width',
-					'min-height',
-					'min-width',
-				],
-			},
 			// Other
 			{
 				order: 'flexible',
 				properties: [
-					'content',
 					'quotes',
 					'z-index',
 				],
@@ -102,7 +102,7 @@ module.exports = {
 		],
 		// Order plugin options
 		{
-			unspecified: 'ignore',
+			unspecified: 'bottom',
 		},
 	],
 };
