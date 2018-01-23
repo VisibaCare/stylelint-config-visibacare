@@ -12,7 +12,6 @@ const mergedRules = merge(
   require('./shorthand'),
   require('./string'),
   require('./value'),
-  require('./noUnsupportedBrowserFeature'),
 );
 
 module.exports = mergedRules;
